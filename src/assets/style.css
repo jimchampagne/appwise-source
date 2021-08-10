@@ -1,0 +1,173 @@
+.hide-scrollbar {
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-y: scroll;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.thumbnail {
+	min-width: 115px;
+	max-width: 115px;
+	min-height: 150px;
+	max-height: 150px;
+	object-fit: cover;
+	background-size: cover;
+	@apply rounded-md;
+}
+
+/* TRANSITIONS */
+
+.offscreen {
+	-webkit-transform: translate(-100%, 0%);
+	-moz-transform: translate(-100 0%);
+	transform: translate(-100%, 0%);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.onscreen {
+	-webkit-transform: translate(0%, 0%);
+	-moz-transform: translate(0 0%);
+	transform: translate(0%, 0%);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/* Desktop News Item */
+.news-item-closed {
+	-webkit-transform: translate(0%, 0%);
+	-moz-transform: translate(0, 0%);
+	transform: translate(0%, 0%);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.news-item-open {
+	-webkit-transform: translate(100%, 0%);
+	-moz-transform: translate(100, 0%);
+	transform: translate(100%, 0%);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/* Mobile News Item */
+
+.news-item-closed-m {
+	-webkit-transform: translate(-100%, 0%);
+	-moz-transform: translate(-100%, 0%);
+	transform: translate(-100%, 0%);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.news-item-open-m {
+	-webkit-transform: translate(0%, 0%);
+	-moz-transform: translate(0, 0%);
+	transform: translate(0%, 0%);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.content-box .inner-content {
+	height: 0px;
+	overflow: hidden;
+	overflow-y: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.content-box .inner-content-mobile {
+	height: 0px;
+	overflow: hidden;
+	overflow-y: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.content-box.active .inner-content {
+	height: 600px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.content-box.active .inner-content-mobile {
+	height: 400px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/* Widths */
+
+.news-width {
+	min-width: 576px;
+	max-width: 576px;
+}
+
+.drawer-width {
+	min-width: 500px;
+	max-width: 500px;
+}
+
+/* Icons */
+
+.icon-width {
+	min-width: 24px;
+	max-width: 24px;
+}
+
+.icon-width-acc {
+	min-width: 48px;
+	max-width: 48px;
+	max-height: 48px;
+}
+
+.swiper-container {
+	@apply w-screen;
+}
+
+/* GMAP EDIT */
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track, 
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece,
+.gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-t::after { 
+  background: rgb(95, 195, 249);
+}
+
+.gm-style .gm-style-iw-t::after {
+	display: hidden;
+	background: linear-gradient(
+		45deg,
+		rgb(95, 195, 249) 50%,
+		rgba(255, 255, 255, 0) 51%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	box-shadow: none;
+}
+
+.gm-ui-hover-effect {
+	display: none !important;
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+.gmnoprint div {
+    background:none !important;
+}

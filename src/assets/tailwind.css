@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: FlandersArtSans;
+		font-weight: normal;
+		src: url(/fonts/FlandersArtSans-Regular.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSans;
+		font-weight: bold;
+		src: url(/fonts/FlandersArtSans-Bold.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSans;
+		font-weight: 500;
+		src: url(/fonts/FlandersArtSans-Medium.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSans;
+		font-weight: 300;
+		src: url(/fonts/FlandersArtSans-Light.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSerif;
+		font-weight: 300;
+		src: url(/fonts/FlandersArtSerif-Light.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSerif;
+		font-weight: 500;
+		src: url(/fonts/FlandersArtSerif-Medium.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSerif;
+		font-weight: bold;
+		src: url(/fonts/FlandersArtSerif-Bold.woff) format("woff");
+	}
+
+	@font-face {
+		font-family: FlandersArtSerif;
+		font-weight: normal;
+		src: url(/fonts/FlandersArtSerif-Regular.woff) format("woff");
+	}
+}

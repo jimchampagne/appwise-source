@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Flanders Art Sans';
+    src: local('Flanders Art Sans Regular'), local('FlandersArtSans-Regular'),
+        url('FlandersArtSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Sans';
+    src: local('Flanders Art Sans Bold'), local('FlandersArtSans-Bold'),
+        url('FlandersArtSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Sans';
+    src: local('Flanders Art Sans Medium'), local('FlandersArtSans-Medium'),
+        url('FlandersArtSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Sans';
+    src: local('Flanders Art Sans Light'), local('FlandersArtSans-Light'),
+        url('FlandersArtSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Serif';
+    src: local('Flanders Art Serif Light'), local('FlandersArtSerif-Light'),
+        url('FlandersArtSerif-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Serif';
+    src: local('Flanders Art Serif Medium'), local('FlandersArtSerif-Medium'),
+        url('FlandersArtSerif-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Serif';
+    src: local('Flanders Art Serif Bold'), local('FlandersArtSerif-Bold'),
+        url('FlandersArtSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flanders Art Serif';
+    src: local('Flanders Art Serif Regular'), local('FlandersArtSerif-Regular'),
+        url('FlandersArtSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
